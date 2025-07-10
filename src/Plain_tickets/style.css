@@ -1,0 +1,56 @@
+.booking-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flight-details,
+.booking-form {
+  flex: 1 1 250px;
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+input, select{
+  margin: 0.5rem 0;
+  padding: 0.6rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.back-btn {
+  background-color: #aaa;
+}
+
+.back-btn:hover {
+  background-color: #888;
+}
+
+.message {
+  margin-top: 1rem;
+  color: green;
+  font-weight: bold;
+}
+.card p {
+  margin: 0.3rem 0;
+}
+
